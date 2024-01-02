@@ -1,0 +1,130 @@
+body {
+    background: #f6f6f6;
+    overflow-x: hidden;
+    }
+
+a:link {
+    text-decoration: none;
+    }
+
+.breadcrumb a:link, .breadcrumb a:visited, .breadcrumb a:active {
+        text-decoration: none;
+    }
+    .breadcrumb a:hover {
+        text-decoration: underline;
+    }
+
+.card {
+    padding: 5px;
+    border:none;
+    background: none;
+    }
+
+    .card-body {
+        border: 1px dotted #ccc;
+        background: #fff;
+        border-radius: 10px;
+        /*filter:drop-shadow(2px 2px 2px rgb(175, 175, 175));*/
+        }
+
+        .card-body:hover, .hover:hover {
+            /*filter:drop-shadow(2px 2px 2px rgb(75, 75, 75));*/
+            opacity: 0.9;
+            }
+
+        .card-body h5, .card-body h6, .card-body p {
+            font-family: Trebuchet MS;
+            }
+
+        .card-body h5 {
+            font-size: 1.7em;
+            }
+
+        .card-body h6 {
+            font-size: 0.7em;
+            }
+
+            .card-text {
+                font-size: 1em;
+                }
+
+    .produto {
+        width: 100%;
+        }
+
+    .titulodoproduto {
+        font-size: 36px;
+        }
+
+    .resumodoproduto {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 36px;
+        }
+
+    .box {
+        background: url(../imagens/monitor-teladecompra.jpg);
+        background-size: contain;
+        }
+
+        .box h2 {
+            margin: 200px 10px 10px 10px;
+            float: left;
+            }
+        
+        .box button {
+            margin: 200px 0px 0px 0px;
+            float: left;
+            }
+
+/* **************************************************************** */
+
+@media (max-width: 992px) {
+    .box {
+        height: 50px;
+        background-size: cover;
+        background-position: 0px;
+        }
+
+        .box h2 {
+            margin: 5px 10px 10px 10px;
+            float: left;
+            }
+        
+        .box button {
+            margin: 5px 0px 0px 0px;
+            float: left;
+            }
+        .copyright {
+            text-align: center;
+        }
+    }
+
+/* **************************************************************** */
+
+    @media (min-width: 993px) and (max-width: 1200px) {
+        .titulodoproduto {
+            font-size: 24px;
+            }
+    
+        .resumodoproduto {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 36px;
+            }
+
+        .box {
+            height: 240px;
+            }
+
+        .box h2 {
+            margin: 190px 10px 10px 10px;
+            font-size: 24px;
+            float: left;
+            }
+        
+        .box button {
+            margin: 185px 0px 0px 5px;
+            float: left;
+            }
+        }
